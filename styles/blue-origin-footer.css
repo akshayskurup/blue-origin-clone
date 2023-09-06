@@ -1,0 +1,195 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    height: 750px;
+}
+.main-footer{
+    background-color: #222;
+    width: 36%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 130px;
+    width: 350px;
+    height: 450px;
+    border-right: 1px solid rgb(88, 88, 88);
+}
+.logo{
+    width: 220px;
+    margin-bottom: 60px;
+    margin-right: 90px;
+}
+.text{
+    width: 320px;
+    
+}
+.copyright{
+    color: #d8d8d8;
+    font-family: 'Barlow', sans-serif;
+    font-size: .75rem;
+    font-weight: 500;
+    letter-spacing: .10938rem;
+    line-height: 1rem;
+    margin-bottom: 16px;
+}
+.privacy,.terms{
+    color: #d8d8d8;
+    font-family: 'Barlow', sans-serif;
+    font-size: .75rem;
+    font-weight: 500;
+    letter-spacing: .10938rem;
+    cursor: pointer;
+    display: inline-block;
+}
+.terms{
+    margin-left: 20px;
+}
+
+.middle-footer {
+    background-color: #222;
+    width: 29%;
+    height: 750px;
+    display: flex;
+    justify-content: center;  
+    
+}
+
+.elements {
+    margin-top: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    text-align: left;  
+}
+
+.texts {
+    font-family: 'Barlow', sans-serif;
+    margin-top: 30px;
+    cursor: pointer;
+    letter-spacing: .10938rem;
+    position: relative;
+    padding-bottom: 3px;
+}
+
+.custom-select select{
+    margin-top: 9px;
+    width:200px;
+    height: 40px;
+    border-radius: 7px;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+}
+
+.custom-select select:focus{
+    outline: 4px solid #0d6dfd50;
+}
+.custom-select option {
+    background-color: rgb(52, 53, 54);
+}
+.right-footer{
+    background-color: #2a2a2a;
+    width: 35%;
+    height: 750px;
+    color: #d8d8d8;
+}
+.right-contents{
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.subscribe{
+    font-family: Barlow,sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.875rem;
+    letter-spacing: .025rem;
+    margin-bottom: 1.5rem;
+    color: #d8d8d8;
+}
+.email-text{
+    width: 267px;
+    font-family: Barlow,sans-serif;
+    font-size: 1rem;
+    letter-spacing: .04375rem;
+    margin-bottom: 1.5rem;
+    color: #d8d8d8;
+}
+.required-text{
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: .04375rem;
+    line-height: 1.875rem;
+    font-family: Barlow,sans-serif;
+    margin-bottom: 1.5rem;
+    color: #d8d8d8;
+}
+.footer-email{
+    font-weight: 700;
+    font-family: Barlow,sans-serif;
+    font-size: 1rem;
+    letter-spacing: .04375rem;
+    color: #d8d8d8;
+    margin-bottom: 4px;
+}
+.email-box{
+    display: block;
+    width: 250px;
+    height: 37px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    margin-bottom: .5rem;
+    font-size: 20px;
+    outline-width: 3px;
+    
+}
+.email-box:focus{
+    outline: 4px solid rgb(122, 122, 122);
+}
+.checkbox-container{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-bottom: 1rem;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    
+}
+.click-text{
+    font-family: Barlow,sans-serif;
+    font-style: italic;
+    width: 266px;
+    line-height: 1.5;
+    letter-spacing: .04375rem;
+    color: #d8d8d8;
+}
+.mailid{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.submit{
+    width: 100px;
+    height: 37px;
+    background-color: transparent;
+    border: 1px solid gray;
+    color: #d8d8d8;
+    font-family: Barlow,sans-serif;
+    font-size: .875rem;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: .125rem;
+    line-height: 1;
+    cursor:  pointer;
+}

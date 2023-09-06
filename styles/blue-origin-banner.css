@@ -1,0 +1,232 @@
+.banner-1{
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;    
+}
+.main-photo,.sec-photo{
+   width: 100%;
+   height: 620px;
+   object-fit: cover;
+}
+.text-1{
+    position: absolute;
+    margin-top: 14%;
+    margin-left: 115px;
+}
+.main-heading{
+    font-family: "From the Stars W01 Bold";
+    color: white;
+    font-size: 4.68rem;   
+}
+.sub-heading{
+    color: White;
+    font-family: "From the Stars W01 ExtraLight";
+    font-size: 4.7rem;
+    line-height: 55px;
+}
+.explore-button{
+    margin-top: 40px;
+    font-weight: 700;
+    font-family: 'Barlow', sans-serif;
+    width: 200px;
+    height: 45px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid gray;
+    font-size: 15.5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.text-2{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.banner-2-heading{
+    font-family: "From the Stars W01 ExtraLight";
+    color: white;
+    font-size: 4.68rem;   
+}
+.banner-2-sub-heading{
+    color: White;
+    font-family: "From the Stars W01 Bold";
+    font-size: 4.7rem;
+    line-height: 55px;
+}
+.become-button{
+    margin-top: 40px;
+    font-weight: 700;
+    font-family: 'Barlow', sans-serif;
+    width: 235px;
+    height: 45px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid gray;
+    font-size: 15.5px;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.third-photo{
+    width: 100%;
+    height: 620px;
+    object-fit: cover;
+    object-position: 0px -157px;
+ }
+ .text-3{
+    position: absolute;
+    margin-top: 11.2%;
+    margin-left: 115px;
+ }
+ .extra-heading{
+    color: White;
+    font-family: "From the Stars W01 ExtraLight";
+    font-size: 4.7rem;
+    line-height: 87px;
+ }
+ .glenn-button{
+    margin-top: 25px;
+    font-weight: 700;
+    font-family: 'Barlow', sans-serif;
+    padding: 12px 25px 12px 25px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid gray;
+    font-size: 15.5px;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.forth-photo{
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+}
+.text-4{
+    position: absolute;
+    margin-top: 12.5%;
+    margin-left: 115px;
+}
+.text-4 .main-heading{
+    color: White;
+    font-family: "From the Stars W01 ExtraLight";
+    font-size: 4.7rem;
+    line-height: 75px;
+    
+}
+.text-4 .sub-heading , .extra-heading{
+    color: White;
+    font-family: "From the Stars W01 Bold";
+    font-size: 4.7rem;
+    line-height: 75px;
+}
+.explanation-container{
+    width: 50%;
+    margin-top: 1.3%;
+}
+.text-4 .explanation{
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    letter-spacing: .04375rem;
+    line-height: 1.875rem;
+}
+.engine-button{
+    margin-top: 30px;
+    font-weight: 700;
+    font-family: 'Barlow', sans-serif;
+    padding: 12px 25px 12px 25px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid gray;
+    font-size: 15.5px;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.fifth-photo{
+    width: 100%;
+    height: 620px;
+    object-fit: cover;
+}
+.text-5{
+    position: absolute;
+    margin-top: 9.7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.text-5 .main-heading{
+    font-family: "From the Stars W01 ExtraLight";
+    letter-spacing: .025rem;
+}
+.text-5 .sub-heading{
+    font-family: "From the Stars W01 Bold";
+}
+.text-5 .explanation-container{
+    width: 63%;
+    margin-top: 10px;
+    
+}
+.text-5 .explanation{
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    letter-spacing: .04375rem;
+    line-height: 1.875rem;
+}
+.social-media-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #03d;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+.items {
+    display: flex;
+    align-items: center;
+}
+.follow-text{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: .125rem;
+    margin-right: -50px;
+}
+.icons {
+    margin-left: 90px;
+    display: flex;
+    flex-direction: row;
+}
+
+.twitter,
+.insta,
+.youtube,
+.linkedin {
+    margin-right: 10px;
+    padding: 15px 18px 15px 18px;
+    border-radius: 100%;
+    border: 1px solid transparent; 
+    transition: border-color 0.3s;
+    cursor: pointer;
+}
+
+.twitter img,
+.insta img,
+.youtube img,
+.linkedin img {
+    width: 20px;
+}
+
+.twitter:hover,
+.insta:hover,
+.youtube:hover,
+.linkedin:hover {
+    border: 1px solid white;
+}
+
+
